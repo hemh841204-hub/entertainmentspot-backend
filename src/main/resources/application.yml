@@ -14,3 +14,10 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQLDialect
+
+paypal:
+  client-id: AW06FPfxPxwV8ibL0z_xOpmIl15LvhDsS5MGGs3sL6HB59Urezar_TK0X0q1sNCmwInOH227KDvvBlLs
+  client-secret: ENkXTbD-pmNU9VBP9_spyG_JkWv9vfHhM2lPxeKYOdBUqdDtoUxBqFhi3zJDIaIWYlVfZrWbS0kuS388
+  base-url: https://api-m.sandbox.paypal.com
+  return-url: https://www.kenneth1204.com/paypal/result
+  cancel-url: https://www.kenneth1204.com/paypal/result
